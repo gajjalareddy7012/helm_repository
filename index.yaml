@@ -1,0 +1,32 @@
+apiVersion: v1
+entries:
+  javawebapp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-09-29T03:37:06.840297473Z"
+    dependencies:
+    - name: javawebapp
+      repository: '@episilia-logindexer'
+      version: 0.1.0
+    - name: mavenwebapp
+      repository: '@episilia-logindexer'
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: cee3addff75cf07e8215042ef3a230d5dd2a7f7412a064fcf5122b55bdada1ce
+    name: javawebapp
+    type: application
+    urls:
+    - https://gajjalareddy7012.github.io/helm_repository/javawebapp-0.1.0.tgz
+    version: 0.1.0
+  mavenwebapp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-09-29T03:37:06.840874041Z"
+    description: A Helm chart for Kubernetes
+    digest: da29919e4f3e8cfff0bc73c060e3df71791596679d48102dfc3f7595456a570b
+    name: mavenwebapp
+    type: application
+    urls:
+    - https://gajjalareddy7012.github.io/helm_repository/mavenwebapp-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-09-29T03:37:06.838682774Z"
